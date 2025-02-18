@@ -1,0 +1,6 @@
+string group_state_name
+
+---
+
+bool result
+string error
