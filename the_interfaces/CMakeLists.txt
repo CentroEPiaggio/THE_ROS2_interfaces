@@ -17,6 +17,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/VisualEndEffector.srv"
   "srv/GoToGroupState.srv"
   "srv/ListenTransform.srv"
+  "srv/SendPose.srv"
   DEPENDENCIES geometry_msgs std_msgs # Add packages that above messages depend on, in this case geometry_msgs for Sphere.msg
 )
 
